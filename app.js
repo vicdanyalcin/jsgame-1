@@ -80,7 +80,7 @@ function checkForMatch() {
     alert("You found a match.");
     cards[optionOneId].setAttribute("src", "img/blank.png");
     cards[optionTwoId].setAttribute("src", "img/blank.png");
-    cardsWon.push(cardChosen);
+    cardsWon.push(cardsChosen);
   } else {
     cards[optionOneId].setAttribute("src", "img/card.jpg");
     cards[optionTwoId].setAttribute("src", "img/card.jpg");
